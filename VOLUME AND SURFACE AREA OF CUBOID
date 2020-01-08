@@ -1,0 +1,48 @@
+
+
+
+#include<stdio.h>
+
+
+
+
+int main(){
+
+
+
+
+    float w,l,h;
+
+    float surface_area,volume,space_diagonal;
+
+
+
+
+    printf("Enter size of width, length and height of a cuboids : ");
+
+    scanf("%f%f%f",&w,&l,&h);
+
+
+
+
+    surface_area = 2*(w*l + l*h + h*w);
+
+    volume = w * l * h;
+
+    space_diagonal = sqrt(w*w + l*l + h*h);
+
+
+
+
+    printf("Surface area of cuboids is: %.3f",surface_area);
+
+    printf("\nVolume of cuboids is : %.3f",volume);
+
+    printf("\nSpace diagonal of cuboids is : %.3f",space_diagonal);
+
+
+
+
+    return 0;
+
+}
