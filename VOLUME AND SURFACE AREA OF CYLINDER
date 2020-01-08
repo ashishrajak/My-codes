@@ -1,0 +1,46 @@
+
+
+
+#include<stdio.h>
+
+#include<math.h>
+
+
+
+
+int main(){
+
+
+
+
+    float r,h;
+
+    float surface_area,volume;
+
+
+
+
+    printf("Enter size of radius and height of a cylinder : ");
+
+    scanf("%f%f",&r,&h);
+
+
+
+
+    surface_area = 2 * M_PI * r * (r + h);
+
+    volume = M_PI * r * r * h;
+
+
+
+
+    printf("Surface area of cylinder is: %.3f",surface_area);
+
+    printf("\nVolume of cylinder is : %.3f",volume);
+
+
+
+
+    return 0;
+
+}
